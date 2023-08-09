@@ -2,24 +2,26 @@ function random(a, b) {
     return Math.floor(Math.random() * (b - a) + a)
 }
 
-function randomBackground(){
-    let img=document.querySelector("body");
+function randomBackground() {
+    let img = document.querySelector("body");
+    const randomNumber = random(0, 5);
 
-    if(random(0,5)===0){
-        img.setAttribute("style","background-image:url(./image/download.jfif); background-size: cover;")
+
+    if (randomNumber === 0) {
+        img.setAttribute("style", "background-image: url(./image/1.JPEG);")
     }
 
-    if(random(0,5)===1){
-        img.setAttribute("style","background-image:url(./image/download\ \(1\).jfif); background-size: cover;")
+    if (randomNumber === 1) {
+        img.setAttribute("style", " background-image: url(./image/2.JPEG);")
     }
 
-    if(random(0,5)===2){
-        img.setAttribute("style","background-image:url(./image/images.jfif); background-size: cover;")
+    if (randomNumber === 2) {
+        img.setAttribute("style", " background-image: url(./image/3.JPEG);")
     }
 
-    if(random(0,5)===3){
-        img.setAttribute("style","background-image:url(./image/images\ \(1\).jfif); background-size: cover;")
+    if (randomNumber === 3) {
+        img.setAttribute("style", "background-image: url(./image/4.JPEG);")
     }
-   
+
 }
-document.write(randomBackground())
+    randomBackground()

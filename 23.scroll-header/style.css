@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    height: 700vh;
+}
+
+
+
+header{
+    height: 15vh;
+    background-color: rgb(226, 75, 16);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:fixed;
+    width: 100%;
+
+
+}
+
+header.scroll{
+    transition: 3s;
+    background-color: rgb(192, 84, 30);
+    height: 10vh;
+    color: black;
+    font-size: 25px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.right__header__btn{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 10px 20px;
+    margin: 10px;
+    box-shadow: 10px 10px 10px 8px rgb(180, 61, 14);
+}

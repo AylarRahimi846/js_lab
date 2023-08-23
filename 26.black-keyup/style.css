@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #aa957b;
+    color: #977757;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-style: italic;
+}
+
+.board {
+    background-color: black;
+    transition: 2s;
+}
